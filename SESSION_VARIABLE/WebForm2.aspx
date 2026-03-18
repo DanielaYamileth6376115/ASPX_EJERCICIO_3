@@ -67,7 +67,7 @@
         <p>
             <asp:Button ID="btnSave" runat="server" Text="Save" Width="70px" />
 &nbsp;
-            <asp:Button ID="btnBack" runat="server" OnClick="btnBack_Click" Text="Back" Width="66px" />
+            <asp:Button ID="btnBack" runat="server" OnClick="btnBack_Click" OnClientClick="history.back();return false;" Text="Back" Width="66px" />
         </p>
         <div>
         </div>

@@ -37,7 +37,7 @@ namespace SESSION_VARIABLE
 
         protected void btnBack_Click(object sender, EventArgs e)
         {
-            
+            Response.Redirect("WebForm1.aspx");
         }
     }
     
